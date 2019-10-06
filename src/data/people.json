@@ -1,0 +1,104 @@
+{
+    "people": [{
+            "name": "Bill Gates",
+            "description": "Bill Gates is an American computer programmer and entrepreneur who confounded Microsoft Corporation, the world's largest personal-computer software company.",
+            "image": "people/bill_gates.jpg",
+            "updated": "2019",
+            "tags": ["technology", "entrepreneur"],
+            "books": [{
+                    "title": "Sapiens: A Brief History of Humankind",
+                    "author": "Yuval Noah Harari",
+                    "isbn": "0062316095",
+                    "url": "https://www.amazon.com/gp/product/0062316095/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=0062316095&linkId=9ce33e2b311c8c0d7f88dd7e3fdebf1c",
+                    "comments": ""
+                },
+                {
+                    "title": "The Future of Capitalism",
+                    "author": "Paul Collier",
+                    "isbn": "0062748653",
+                    "url": "https://www.amazon.com/gp/product/0062748653/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=0062748653&linkId=d5bb5c8e52451d43842d3abe24d88013",
+                    "comments": "Collier’s latest book is a thought-provoking look at a topic that’s top of mind for a lot of people right now. Although I don’t agree with him about everything—I think his analysis of the problem is better than his proposed solutions—his background as a development economist gives him a smart perspective on where capitalism is headed."
+                },
+                {
+                    "title": "Upheaval",
+                    "author": "Jared Diamond",
+                    "isbn": "0316492647",
+                    "url": "https://www.amazon.com/gp/product/0316492647/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=0316492647&linkId=d1b9747ebe2d681bee3d32a98965fcad",
+                    "comments": "I’m a big fan of everything Jared has written, and his latest is no exception. The book explores how societies react during moments of crisis. He uses a series of fascinating case studies to show how nations managed existential challenges like civil war, foreign threats, and general malaise. It sounds a bit depressing, but I finished the book even more optimistic about our ability to solve problems than I started."
+                }
+            ]
+        },
+        {
+            "name": "Jeff Bezos",
+            "description": "Jeff Bezos is an American entrepreneur who played a key role in the growth of e-commerce as the founder and chief executive officer of Amazon.com, Inc.",
+            "image": "people/jeff-bezos.jpg",
+            "updated": "2019",
+            "tags": ["technology", "entrepreneur"],
+            "books": [{
+                "title": "The Remains of the Day",
+                "author": "Kazuo Ishiguro",
+                "isbn": "0679731725",
+                "url": "https://www.amazon.com/gp/product/0679731725/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=0679731725&linkId=0273224e70bd58b0bdb98ebebff346bc",
+                "comments": ""
+            }]
+        },
+        {
+            "name": "Bill Gates",
+            "description": "Bill Gates is an American computer programmer and entrepreneur who confounded Microsoft Corporation, the world's largest personal-computer software company.",
+            "image": "people/bill_gates.jpg",
+            "updated": "2019",
+            "tags": ["technology", "entrepreneur"],
+            "books": [{
+                    "title": "Sapiens: A Brief History of Humankind",
+                    "author": "Yuval Noah Harari",
+                    "isbn": "0062316095",
+                    "url": "https://www.amazon.com/gp/product/0062316095/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=0062316095&linkId=9ce33e2b311c8c0d7f88dd7e3fdebf1c",
+                    "comments": ""
+                },
+                {
+                    "title": "The Future of Capitalism",
+                    "author": "Paul Collier",
+                    "isbn": "0062748653",
+                    "url": "https://www.amazon.com/gp/product/0062748653/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=0062748653&linkId=d5bb5c8e52451d43842d3abe24d88013",
+                    "comments": "Collier’s latest book is a thought-provoking look at a topic that’s top of mind for a lot of people right now. Although I don’t agree with him about everything—I think his analysis of the problem is better than his proposed solutions—his background as a development economist gives him a smart perspective on where capitalism is headed."
+                },
+                {
+                    "title": "Upheaval",
+                    "author": "Jared Diamond",
+                    "isbn": "0316409138",
+                    "url": "https://www.amazon.com/gp/product/0316492647/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=0316492647&linkId=d1b9747ebe2d681bee3d32a98965fcad",
+                    "comments": "I’m a big fan of everything Jared has written, and his latest is no exception. The book explores how societies react during moments of crisis. He uses a series of fascinating case studies to show how nations managed existential challenges like civil war, foreign threats, and general malaise. It sounds a bit depressing, but I finished the book even more optimistic about our ability to solve problems than I started."
+                }
+            ]
+        },
+        {
+            "name": "Bill Gates",
+            "description": "Bill Gates is an American computer programmer and entrepreneur who confounded Microsoft Corporation, the world's largest personal-computer software company.",
+            "image": "people/bill_gates.jpg",
+            "updated": "2019",
+            "tags": ["technology", "entrepreneur"],
+            "books": [{
+                    "title": "Sapiens: A Brief History of Humankind",
+                    "author": "Yuval Noah Harari",
+                    "isbn": "0062316095",
+                    "url": "https://www.amazon.com/gp/product/0062316095/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=0062316095&linkId=9ce33e2b311c8c0d7f88dd7e3fdebf1c",
+                    "comments": ""
+                },
+                {
+                    "title": "The Future of Capitalism",
+                    "author": "Paul Collier",
+                    "isbn": "0062748653",
+                    "url": "https://www.amazon.com/gp/product/0062748653/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=0062748653&linkId=d5bb5c8e52451d43842d3abe24d88013",
+                    "comments": "Collier’s latest book is a thought-provoking look at a topic that’s top of mind for a lot of people right now. Although I don’t agree with him about everything—I think his analysis of the problem is better than his proposed solutions—his background as a development economist gives him a smart perspective on where capitalism is headed."
+                },
+                {
+                    "title": "Upheaval",
+                    "author": "Jared Diamond",
+                    "isbn": "0316492647",
+                    "url": "https://www.amazon.com/gp/product/0316492647/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=0316492647&linkId=d1b9747ebe2d681bee3d32a98965fcad",
+                    "comments": "I’m a big fan of everything Jared has written, and his latest is no exception. The book explores how societies react during moments of crisis. He uses a series of fascinating case studies to show how nations managed existential challenges like civil war, foreign threats, and general malaise. It sounds a bit depressing, but I finished the book even more optimistic about our ability to solve problems than I started."
+                }
+            ]
+        }
+    ]
+}

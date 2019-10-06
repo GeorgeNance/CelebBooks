@@ -1,0 +1,28 @@
+.Person {
+    background-color: white;
+    width: 250px;
+    padding: 10px;
+    margin: 10px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.Person p {
+    font: 14px;
+    font-weight: lighter;
+}
+
+.PersonImage {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid darkgrey;
+    width: 100%;
+    max-height: 100px;
+}
+
+.Person:hover {
+    background: palegreen;
+    cursor: pointer;
+}
