@@ -1,14 +1,15 @@
 import React, { useEffect, useState } from "react";
-
-const Book = props => {
-  const book = props.book;
-  console.log(book);
-
+import style from "./Book.module.css";
+const Book = ({ book }) => {
   return (
-    <div>
-      <h4>{book.title}</h4>
-      <p>{book.title}</p>
-      <img src={book.image ? book.image : null}></img>
+    <div className={style.Book}>
+      <a href={book.url} target="_blank">
+        <img
+          src={book.cover ? book.cover : null}
+          title={book.title}
+          alt={book.title}
+        ></img>
+      </a>
     </div>
   );
 };

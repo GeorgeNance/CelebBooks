@@ -13,7 +13,7 @@ const Modal = props => {
           opacity: props.show ? `1` : `0`
         }}
       >
-        {props.children}
+        <div className={style.ModalContent}>{props.children}</div>
       </div>
     </Aux>
   );

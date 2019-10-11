@@ -1,0 +1,11 @@
+.BookList {
+    text-align: center;
+}
+
+.Content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-auto-rows: auto;
+    justify-content: space-around;
+    align-content: center;
+}

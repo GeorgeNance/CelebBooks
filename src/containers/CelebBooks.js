@@ -4,13 +4,26 @@ import Modal from "../components/UI/Modal/Modal";
 import PeopleCards from "../components/PeopleCards/PeopleCards";
 import data from "../data/people.json";
 import BookList from "../components/BookList/BookList";
+import Navigation from "../components/Navigation/Navigation";
 
 class CelebBooks extends Component {
   state = {
     searchText: "",
     showBook: false,
     selectedPerson: 0,
-    people: data.people
+    people: data.people,
+    filteredPeople: data.people
+  };
+
+  searchTextChangedHandler = e => {
+    const input = e.target.value.toLowerCase().trim();
+    const people = this.state.people;
+
+    let filtered = people.filter(person =>
+      person.name.toLowerCase().includes(input)
+    );
+
+    this.setState({ filteredPeople: filtered });
   };
 
   closeBooksModalHandler = () => {
@@ -18,32 +31,9 @@ class CelebBooks extends Component {
   };
 
   selectPersonHandler = key => {
-    const updatedPeople = [...this.state.people];
-
-    if (!updatedPeople[key].loaded) {
-      updatedPeople[key].books = updatedPeople[key].books.map((book, index) => {
-        let url =
-          "https://www.googleapis.com/books/v1/volumes?q=isbn:" +
-          book.isbn +
-          "&key=AIzaSyC3BNy44JJUB5oTyC7aG6XtsGp_u9Q9-E0";
-        fetch(url)
-          .then(res => res.json())
-          .then(res => {
-            let item = res.items[0].volumeInfo;
-            if (item.imageLinks) {
-              book.image = item.imageLinks.thumbnail;
-            }
-          })
-          .catch(error => console.log(error));
-        return book;
-      });
-      updatedPeople[key].loaded = true;
-    }
-
     this.setState({
       showBook: true,
-      selectedPerson: key,
-      people: updatedPeople
+      selectedPerson: key
     });
   };
 
@@ -55,11 +45,12 @@ class CelebBooks extends Component {
           modalClosed={this.closeBooksModalHandler}
         >
           <BookList
-            books={this.state.people[this.state.selectedPerson].books}
+            person={this.state.people[this.state.selectedPerson]}
           ></BookList>
         </Modal>
+        <Navigation changed={this.searchTextChangedHandler}></Navigation>
         <PeopleCards
-          people={this.state.people}
+          people={this.state.filteredPeople}
           click={this.selectPersonHandler}
         ></PeopleCards>
       </Aux>
