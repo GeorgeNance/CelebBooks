@@ -53,69 +53,85 @@
             "updated": "2019",
             "tags": ["technology", "entrepreneur"],
             "books": [{
-                "title": "The Remains of the Day",
-                "author": "Kazuo Ishiguro",
-                "isbn": "0679731725",
-                "url": "https://www.amazon.com/gp/product/0679731725/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=0679731725&linkId=0273224e70bd58b0bdb98ebebff346bc",
-                "comments": ""
-            }]
+                    "title": "The Remains of the Day",
+                    "author": "Kazuo Ishiguro",
+                    "isbn": "0679731725",
+                    "url": "https://www.amazon.com/gp/product/0679731725/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=0679731725&linkId=0273224e70bd58b0bdb98ebebff346bc",
+                    "cover": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B011T6WY7K&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=georgenance-20"
+                },
+                {
+                    "title": "Built to Last: Successful Habits of Visionary Companies",
+                    "author": "Jim Collins",
+                    "isbn": "0679731725",
+                    "url": "https://www.amazon.com/gp/product/0060516402/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=0060516402&linkId=f53268152e3c058a86ba9c1377c3e97b",
+                    "cover": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0060516402&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=georgenance-20"
+                },
+                {
+                    "title": "Creation: Life and How to Make It",
+                    "author": "Steve Grand",
+
+                    "url": "https://www.amazon.com/gp/product/0753812770/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=0753812770&linkId=ec16c81dfdb2d9520af558e39b83ca6e",
+                    "cover": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0753812770&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=georgenance-20&language=en_US"
+                },
+                {
+                    "title": "The Innovator’s Dilemma",
+                    "author": "Clayton Christensen",
+                    "url": "https://www.amazon.com/gp/product/1633691780/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=1633691780&linkId=eebb8854cfb8358831ceae1c3103ea26",
+                    "cover": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1633691780&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=georgenance-20"
+                }
+            ]
         },
         {
             "name": "Elon Musk",
-            "description": "Bill Gates is an American computer programmer and entrepreneur who confounded Microsoft Corporation, the world's largest personal-computer software company.",
+            "description": "Elon Musk is a South African-born American entrepreneur and businessman who founded X.com in 1999 (which later became PayPal), SpaceX in 2002 and Tesla Motors in 2003",
             "image": "people/elon_musk.jpg",
             "updated": "2019",
             "tags": ["technology", "entrepreneur"],
             "books": [{
-                    "title": "Sapiens: A Brief History of Humankind",
-                    "author": "Yuval Noah Harari",
-                    "isbn": "0062316095",
-                    "url": "https://www.amazon.com/gp/product/0062316095/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=0062316095&linkId=9ce33e2b311c8c0d7f88dd7e3fdebf1c",
-                    "comments": ""
+                    "title": "The Hitchhiker's Guide to the Galaxy",
+                    "author": "Douglas Adams",
+                    "url": "https://www.amazon.com/gp/product/0345453743/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=0345453743&linkId=c93e5daad56ac74acea432bc0a35ef6b",
+                    "cover": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0345453743&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=georgenance-20"
                 },
                 {
-                    "title": "The Future of Capitalism",
-                    "author": "Paul Collier",
-                    "isbn": "0062748653",
-                    "url": "https://www.amazon.com/gp/product/0062748653/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=0062748653&linkId=d5bb5c8e52451d43842d3abe24d88013",
-                    "comments": "Collier’s latest book is a thought-provoking look at a topic that’s top of mind for a lot of people right now. Although I don’t agree with him about everything—I think his analysis of the problem is better than his proposed solutions—his background as a development economist gives him a smart perspective on where capitalism is headed."
+                    "title": "Einstein: His Life and Universe",
+                    "author": "Walter Isaacson",
+                    "url": "https://www.amazon.com/gp/product/0743264746/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=0743264746&linkId=134a080ad590e226d4b1f7e739aadd2d",
+                    "cover": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0743264746&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=georgenance-20"
                 },
                 {
-                    "title": "Upheaval",
-                    "author": "Jared Diamond",
-                    "isbn": "0316409138",
-                    "url": "https://www.amazon.com/gp/product/0316492647/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=0316492647&linkId=d1b9747ebe2d681bee3d32a98965fcad",
-                    "comments": "I’m a big fan of everything Jared has written, and his latest is no exception. The book explores how societies react during moments of crisis. He uses a series of fascinating case studies to show how nations managed existential challenges like civil war, foreign threats, and general malaise. It sounds a bit depressing, but I finished the book even more optimistic about our ability to solve problems than I started."
+                    "title": "Superintelligence: Paths, Dangers, Strategies",
+                    "author": "Nick Bostrom",
+                    "url": "https://www.amazon.com/gp/product/0198739834/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=0198739834&linkId=1d8570c8b2fcb6d074151d0708528236",
+                    "cover": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0198739834&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=georgenance-20"
                 }
             ]
         },
         {
             "name": "Barack Obama",
-            "description": "Bill Gates is an American computer programmer and entrepreneur who confounded Microsoft Corporation, the world's largest personal-computer software company.",
+            "description": "Barack Hussein Obama II (/bəˈrɑːk huːˈseɪn oʊˈbɑːmə/ ( listen); born August 4, 1961) is an American attorney and politician who served as the 44th president of the United States from 2009 to 2017. A member of the Democratic Party, he was the first African American to be elected to the presidency.",
             "image": "people/barack_obama.jpg",
             "updated": "2019",
             "tags": ["technology", "entrepreneur"],
             "books": [{
-                    "title": "Sapiens: A Brief History of Humankind",
-                    "author": "Yuval Noah Harari",
-                    "isbn": "0062316095",
-                    "url": "https://www.amazon.com/gp/product/0062316095/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=0062316095&linkId=9ce33e2b311c8c0d7f88dd7e3fdebf1c",
-                    "comments": ""
+                    "title": "The Nickel Boys: A Novel",
+                    "author": "Colson Whitehead",
+                    "url": "https://www.amazon.com/gp/product/0385537077/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=0385537077&linkId=d3e9d6ea5079135abd883a9b8d612eff",
+                    "cover": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0385537077&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=georgenance-20"
                 },
                 {
-                    "title": "The Future of Capitalism",
-                    "author": "Paul Collier",
-                    "isbn": "0062748653",
-                    "url": "https://www.amazon.com/gp/product/0062748653/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=0062748653&linkId=d5bb5c8e52451d43842d3abe24d88013",
-                    "comments": "Collier’s latest book is a thought-provoking look at a topic that’s top of mind for a lot of people right now. Although I don’t agree with him about everything—I think his analysis of the problem is better than his proposed solutions—his background as a development economist gives him a smart perspective on where capitalism is headed."
+                    "title": "The Shallows: What the Internet Is Doing to Our Brains",
+                    "author": "Nicholas Carr",
+                    "url": "https://www.amazon.com/gp/product/0393339750/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=0393339750&linkId=1cebb726a88fb6107635fc7c9efd2202",
+                    "cover": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0393339750&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=georgenance-20"
                 },
                 {
-                    "title": "Upheaval",
-                    "author": "Jared Diamond",
-                    "isbn": "0316492647",
-                    "url": "https://www.amazon.com/gp/product/0316492647/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=0316492647&linkId=d1b9747ebe2d681bee3d32a98965fcad",
-                    "comments": "I’m a big fan of everything Jared has written, and his latest is no exception. The book explores how societies react during moments of crisis. He uses a series of fascinating case studies to show how nations managed existential challenges like civil war, foreign threats, and general malaise. It sounds a bit depressing, but I finished the book even more optimistic about our ability to solve problems than I started."
+                    "title": "Lab Girl",
+                    "author": "Hope Jahren",
+                    "url": "https://www.amazon.com/gp/product/1101873728/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=georgenance-20&creative=9325&linkCode=as2&creativeASIN=1101873728&linkId=d2699eb69260ce15e3cac07d31be37de",
+                    "cover": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1101873728&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=georgenance-20"
                 }
+
             ]
         }
     ]

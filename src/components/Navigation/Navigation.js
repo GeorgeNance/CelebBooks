@@ -7,7 +7,6 @@ const Navigation = props => {
     <header className={style.Navigation}>
       <h1>CelebBooks 📚</h1>
       <SearchBar changed={props.changed}></SearchBar>
-      <p>___</p>
     </header>
   );
 };

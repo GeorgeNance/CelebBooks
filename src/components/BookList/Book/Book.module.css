@@ -1,6 +1,7 @@
 .Book {
     cursor: pointer;
     width: 150px;
+    border: 1px solid transparent;
 }
 
 .Book img {
@@ -9,5 +10,6 @@
 }
 
 .Book:hover {
-    background-color: aqua;
+    border: 1px solid black;
+
 }

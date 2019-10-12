@@ -3,7 +3,7 @@
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-auto-rows: auto;
     grid-gap: .5rem;
-    background-color: #cccccc;
+    background-color: #d6e6f2;
     justify-items: center;
 }
 

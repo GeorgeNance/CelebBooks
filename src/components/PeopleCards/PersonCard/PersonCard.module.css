@@ -1,10 +1,11 @@
 .Person {
-    background-color: white;
+    background-color: #b9d7ea;
     width: 250px;
     padding: 10px;
     margin: 10px 20px;
     box-sizing: border-box;
     text-align: center;
+    border-radius: 5px;
     box-shadow: 2px 3px rgba(0, 0, 0, 0.1);
 }
 
@@ -16,14 +17,14 @@
 .PersonImage {
     display: block;
     margin: auto;
-    border-radius: 50%;
+    border-radius: 5px;
     border: 1px solid darkgrey;
     width: 100%;
     height: auto;
 }
 
 .Person:hover {
-    background: rgb(124, 87, 165);
+    background: #769fcd;
     cursor: pointer;
 
 }

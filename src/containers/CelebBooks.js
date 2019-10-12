@@ -5,6 +5,7 @@ import PeopleCards from "../components/PeopleCards/PeopleCards";
 import data from "../data/people.json";
 import BookList from "../components/BookList/BookList";
 import Navigation from "../components/Navigation/Navigation";
+import Footer from "../components/Footer/Footer";
 
 class CelebBooks extends Component {
   state = {
@@ -53,6 +54,7 @@ class CelebBooks extends Component {
           people={this.state.filteredPeople}
           click={this.selectPersonHandler}
         ></PeopleCards>
+        <Footer></Footer>
       </Aux>
     );
   }
